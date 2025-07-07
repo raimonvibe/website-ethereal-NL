@@ -739,7 +739,7 @@ input, select, textarea {
 				text-rendering: auto;
 				line-height: 1;
 				text-transform: none !important;
-				font-family: 'Font Awesome 5 Free';
+				font-family: 'Font Awesome 6 Free';
 				font-weight: 900;
 			}
 
@@ -849,7 +849,7 @@ input, select, textarea {
 			text-rendering: auto;
 			line-height: 1;
 			text-transform: none !important;
-			font-family: 'Font Awesome 5 Free';
+			font-family: 'Font Awesome 6 Free';
 			font-weight: 400;
 		}
 
@@ -866,7 +866,7 @@ input, select, textarea {
 		}
 
 		.icon.brands:before {
-			font-family: 'Font Awesome 5 Brands';
+			font-family: 'Font Awesome 6 Brands';
 		}
 
 /* Image */
@@ -1439,6 +1439,25 @@ input, select, textarea {
 			min-width: auto;
 			width: 100%;
 		}
+	}
+
+/* Social Media Icon Text Alignment Fix */
+
+	.social-links-grid .contact-icons > li {
+		display: flex;
+		align-items: center;
+		line-height: 1.2;
+	}
+
+	.social-links-grid .contact-icons > li:before {
+		flex-shrink: 0;
+		margin-right: 1rem;
+		vertical-align: baseline;
+	}
+
+	.social-links-grid .contact-icons > li a {
+		flex: 1;
+		line-height: inherit;
 	}
 
 /* Table */

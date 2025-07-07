@@ -1409,6 +1409,34 @@ input, select, textarea {
 			color: #353865;
 		}
 
+/* Social Links Grid */
+
+	.social-links-grid {
+		display: flex;
+		gap: 1rem;
+		flex-wrap: wrap;
+	}
+
+	.social-column {
+		flex: 1;
+		min-width: 200px;
+	}
+
+	.social-column ul {
+		margin: 0;
+	}
+
+	@media screen and (max-width: 736px) {
+		.social-links-grid {
+			flex-direction: column;
+			gap: 0.5rem;
+		}
+		
+		.social-column {
+			min-width: auto;
+		}
+	}
+
 /* Table */
 
 	.table-wrapper {

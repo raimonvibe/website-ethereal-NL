@@ -1,4 +1,3 @@
-Here’s a README you can use for your repository. Feel free to adjust wording, add badges, or tweak sections as needed.
 
 ---
 
@@ -97,3 +96,4 @@ Feel free to let me know if you’d like me to add:
 * Accessibility notes, supported browsers list
 * Multi-language version (English + Dutch)
 * Or anything else you’d like to include in the README.
+
